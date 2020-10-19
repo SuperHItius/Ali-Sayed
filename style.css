@@ -1,0 +1,323 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+button {
+    cursor: pointer;
+}
+
+.main {
+    width: 100%;
+    max-width: 1367px;
+    margin: 0 auto;
+}
+
+.welcome-page, 
+.dawn-page {
+    display: flex;
+}
+
+.dawn-page--reverse {
+    flex-direction: row-reverse;
+}
+.welcome-page__left,
+.dawn-page__left {
+    background-size: cover;
+    background-image: url(img/bg-welcome-page.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: 908px;
+    height: 717px;
+}
+
+.dawn-page__left--BG {
+    background-image: url(img/dawn-page__left.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 75px 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.welcome-page__right,
+.dawn-page__right {
+    width: 100%;
+    max-width: 461px;
+    height: 717px;
+    background-color: #F3F3F3;
+    padding: 55px;
+}
+
+.dawn-page__right--more-padding {
+    padding: 75px 55px;
+}
+
+.dawn-page__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #1D5367;
+    background-image: url(img/dawn-page__right.png);
+    color: #FFFFFF;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.welcome-page__heading,
+.dawn-page__heading {
+    font-size: 40px;
+    font-weight: 300;
+    width: 100%;
+    max-width: 310px;
+    line-height: 60px;
+    margin-top: 55px;
+}
+
+.dawn-page__heading--no-margin-top {
+    margin-top: 0px;
+}
+
+.welcome-page__heading span, 
+.dawn-page__heading span {
+    font-weight: 700;
+}
+
+.welcome-page__description,
+.dawn-page__description {
+    margin-top: 70px;
+    font-size: 18px;
+    letter-spacing: 0.6px;
+    font-weight: 300;
+}
+
+.information {
+    display: flex;
+}
+
+.information__left-side {
+    padding: 75px 60px;
+    background-color: #1E92AF;
+    background-image: url(img/information__left-side.png);
+    width: 100%;
+    max-width: 614px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.information__article {
+    color: white;
+}
+
+.information__article--step-up {
+    margin-top: 80px;
+}
+
+.information__article  h3 {
+    font-size: 45px;
+}
+
+.information__article  h3 span {
+    font-weight: 700;
+}
+
+.information__article  p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 30px;
+    line-height: 28px;
+}
+
+.information__article-btn {
+    padding: 7px 40px ;
+    border-radius: 7px;
+    margin-top: 60px ;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.information__article-btn--white {
+    color: #FFF;
+    border: 1px solid #FFF;
+}
+
+.information__article-btn--black {
+    color: #000;
+    border: 1px solid #000;
+}
+
+.information__right-side {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.information__right-side-article {
+    padding: 75px 60px;
+    padding-bottom: 75px;
+    width: 100%;
+    max-width: 752px;
+    flex: 1;
+}
+
+.information__right-side-up {
+    background-color: #FFF4D2;
+    background-image: url(img/information__right-side.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.information__right-side-up .information__article {
+    color: #000;
+}
+
+.information__right-side-dawn {
+    background-color: #162633;
+    background-image: url(img/information__right-side-dawn.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.dawn-page__left-name, 
+.dawn-page__left-mail,
+.dawn-page__left-text {
+    background: transparent;
+    color: white;
+}
+
+.dawn-page__left-name:focus, 
+.dawn-page__left-mail:focus,
+.dawn-page__left-text:focus {
+    outline: none;
+}
+
+.dawn-page__left-name::-webkit-input-placeholder, 
+.dawn-page__left-mail::-webkit-input-placeholder,
+.dawn-page__left-text::-webkit-input-placeholder {
+    color: white;
+}
+
+.dawn-page__left-name::-moz-placeholder, 
+.dawn-page__left-mail::-moz-placeholder,
+.dawn-page__left-text::-moz-placeholder {
+    opacity: 1;
+    color: white;
+}
+
+.dawn-page__left-hey {
+    font-size: 45px;
+    color: white;
+    font-weight: 200;
+}
+
+.dawn-page__left-hey span {
+    font-weight: 700;
+}
+
+.dawn-page__right-icon {
+    width: 90px;
+    height: 90px;
+}
+
+.dawn-page__form {
+    margin-top: 50px;
+}
+
+.dawn-page__form-inputs {
+    width: 100%;
+    max-width: 625px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dawn-page__left-name {
+    padding: 15px;
+    border: 1px solid white;
+    max-width: 100%;
+    width: 305px;
+    font-size: 17px;
+    border-radius: 10px;
+    
+}
+
+.dawn-page__left-mail {
+    padding: 15px;
+    border: 1px solid white;
+    max-width: 100%;
+    width: 305px;
+    font-size: 17px;
+    border-radius: 10px;
+}
+
+.dawn-page__left-text {
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 10px;
+    font-size: 17px;
+    max-width: 100%;
+    width: 625px;
+    height: 160px;
+    border: 1px solid white;
+}
+
+.dawn-page__left-icons {
+    margin-top: 96px;
+    padding-left: 5px;
+    color: white;
+}
+
+.dawn-page__left-icons-text-up {
+    margin-bottom: 25px;
+}
+
+.dawn-page__left-icon {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.dawn-page__left-icons-icon-first {
+    background-color: #345bb4;
+}
+
+.dawn-page__left-icons-icon-second {
+    background-color: #e64895;
+}
+
+.dawn-page__left-icons-icon-third {
+    background-color: #00b4ff;
+}
+
+.dawn-page__left-icons-text-dawn {
+    margin-top: 48px;
+}
+
+@media (max-width: 990px) {
+    .information, 
+    .welcome-page,
+    .dawn-page--reverse,
+    .dawn-page__form-inputs {
+        flex-direction: column;
+    }
+
+    .dawn-page__form-inputs input {
+        max-width: none;
+        width: 100%;
+    }
+
+    .dawn-page__form-inputs input:nth-child(2) {
+        margin-top: 15px;
+    }
+
+    .welcome-page__right,
+    .welcome-page__left,
+    .information__right-side-article, 
+    .information__left-side,
+    .dawn-page__right,
+    .dawn-page__left-up,
+    .dawn-page__left {
+        max-width: none;
+    }
+}
